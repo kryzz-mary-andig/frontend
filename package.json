@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend of Movie to Emoji application using Electron with integration of OpenAI API and Supabase",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kryzz-mary-andig/frontend.git"
+  },
+  "author": "Kryzz Mary E. Andig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kryzz-mary-andig/frontend/issues"
+  },
+  "homepage": "https://github.com/kryzz-mary-andig/frontend#readme",
+  "devDependencies": {
+    "electron": "^24.3.0"
+  }
+}
