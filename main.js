@@ -16,7 +16,7 @@ const createWindow = () => {
     win.webContents.openDevTools();
   }
 
-  win.loadFile(path.join(__dirname, "./renderer/index.html"));
+  win.loadFile(path.join(__dirname, "./index.html"));
 };
 
 app.whenReady().then(() => {
